@@ -15,6 +15,7 @@
     "morgan": "~1.5.1",
     "request": "^2.55.0",
     "serve-favicon": "~2.2.0",
+    "tingodb": "^0.3.4",
     "utf8": "^2.1.0"
   }
 }

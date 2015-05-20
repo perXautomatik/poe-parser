@@ -1,14 +1,22 @@
 {
-	"name": "poe-parser",
-	"version": "0.0.1",
-	"licenses": "GPLv2",
-	"files": [
-		"thread.js",
-		"posts.js",
-		"index.js"
-	],
-	"engines": {
-		"node": ">= 0.8.0"
-	},
-	"_id": "poe-parser@0.0.1"
+  "name": "poe-parser",
+  "version": "0.0.1",
+  "licenses": "GPLv2",
+  "files": [
+    "thread.js",
+    "posts.js",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "_id": "poe-parser@0.0.1",
+  "dependencies": {
+    "farmhash": "^1.0.0",
+    "intel": "^1.0.0",
+    "jsdom": "^5.4.2",
+    "mongoose": "^4.0.3",
+    "request": "^2.55.0",
+    "sqlite3": "^3.0.8"
+  }
 }

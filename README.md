@@ -5,7 +5,7 @@ Path of exile trade forums parser written on javascript io.js platform. This bac
 Parser for one trade section may be initialize as
 ```
 var pparser = require("poe-parser");
-var url = "Any path of exile forum trading forum, created by GGG"
+var url = "Any path of exile trading forum, created by GGG"
 
 pparser.indexPosts(url);
 ```
